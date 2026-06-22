@@ -1,13 +1,25 @@
+@font-face{
+    font-family: "montserrat";
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf');
+    font-style: normal;
+    font-dysplay: swap;
+}
+
+
 :root {
+    --prymary-color: #8F0101;
+    --secondary-color: #B81515;
+
     --background-prymary-color: #ffffff;
     --background-secondary-color: #f5f5f5;
     --background-tertiary-color: #000000;
 
-    --button-prymary-color: #8F0101;
-    --button-secondary-color: #B81515;
-
     --text-prymary-color: #222222;
     --text-secondary-color: #FFFFFF;
+
+    --title-weight: 700;
+    --text-weight: 400;
+    --menu-text-weight: 500;
     
 }
 
@@ -18,4 +30,9 @@ body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
     padding: 0;
     box-sizing: border-box;
 }
+h1{
+    font-family: "montserrat";
+    color: var(--prymary-color);
+}
+
 
