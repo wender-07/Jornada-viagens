@@ -6,7 +6,7 @@
     margin-top: 64px;
 }
 
-.categories-card .card{
+.categories-cards .card{
     width: 312px;
     height: 220px;
     background-color: var(--background-secondary-color);
