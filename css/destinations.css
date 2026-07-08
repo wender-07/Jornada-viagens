@@ -5,3 +5,22 @@
   padding: 0;
   margin-bottom: 24px;
 }
+
+.img-item {
+  width: 360px;
+  height: 312px;
+  background-size: cover;
+  background-position: center;
+  display:block
+}
+
+.img-tokio {
+  background-image: url(../img/tokyo-mobile.jpg);
+  background-size: cover;
+
+}
+
+.img-osaka {
+  background-image: url(../img/osaka-mobile.jpg);
+  background-size: cover;
+}
