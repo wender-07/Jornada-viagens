@@ -1,3 +1,15 @@
+.destinations {
+  width: 312px;
+  margin: 0 auto;
+}
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .destinations .item header {
   display: block;
   background-color: transparent;
@@ -6,21 +18,3 @@
   margin-bottom: 24px;
 }
 
-.img-item {
-  width: 360px;
-  height: 312px;
-  background-size: cover;
-  background-position: center;
-  display:block
-}
-
-.img-tokio {
-  background-image: url(../img/tokyo-mobile.jpg);
-  background-size: cover;
-
-}
-
-.img-osaka {
-  background-image: url(../img/osaka-mobile.jpg);
-  background-size: cover;
-}
