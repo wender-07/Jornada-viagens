@@ -32,16 +32,10 @@
 }
 
 .item h4 {
-  font-size: 32px;
-  font-weight: var(--title-weight);
-  color: #1a1a1a;
   margin-bottom: 16px;
 }
 
 .item p {
-  font-size: 20px;
-  line-height: 32px;
-  color: var(--text-primary-color);
   margin-bottom: 24px;
 }
 
