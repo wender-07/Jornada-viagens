@@ -43,19 +43,17 @@
   }
 }
 
-@media screen and (min-width:1440px){
-    .payments .text-content {
-        width: 360px;
-    }
-    .payments .image-gallery {
-        width: 790px;
-    }
-}
-
-.payments .content-container {
+@media screen and (min-width: 1440px) {
+  .payments .content-container {
     display: flex;
     justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    width: 360px;
+  }
+
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
 }
-
-
-
